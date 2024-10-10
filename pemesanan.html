@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pemesanan</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- My Style -->
+    <link rel="stylesheet" href="assets/css/pemesanan.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">BARCELONA TIKET.</a>
+
+      <div class="navbar-nav"> 
+        <a href="beranda.html">Beranda</a>       
+        <a href="reservasi.html">Pemesanan</a>
+        <a href="tentangkami.html">Tentang kami</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="kontakkami.html">Kontak Kami</a>
+      </div>
+      
+    </nav>
+    <!-- NAVIGATION BAR END-->
+    <section class="banner">
+      <div class="images">
+        <img src="assets/images/km.barcelona.jpg" alt="kapal" />
+      </div>
+    </section>
+
+    <section class="reservasi">
+		<div class="wrapper">
+			<div class="accordion-wp">
+				<div class="ls-acc-wp active">
+					<div class="drop-acc" style="display:block;">
+						<form method="post" action="https://www.pelni.co.id/reservasi-tiket" autocomplete="off">
+						<input type="hidden" name="avb-class" id="avb-class" value="">
+						<input type="hidden" name="uniqid" id="uniqid" value="">
+						<input type="hidden" name="_token" value="3Oj7YMnRgClRkLD73lzGDvOQBJY0kxSyx9yJglkH">
+						<input type="hidden" name="error" id="error" value="success">
+							<div class="row">
+								<div class="col70">
+									<span class="ltitle">Tujuan Perjalanan</span>
+									<div class="col custom-select">
+										<label>Dari</label>
+										<select name="ticket_org" id="ticket_org" class="select2-modif select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+									<option value="" selected="selected">Pilih Asal Kota/Pelabuhan</option>
+									<!-- <option value="01">satu</option> -->
+										                                        <option value="108">ACEH BARAT, ACEH | MEQ - MEULABOH</option>
+										                                        <option value="1004">ACEH BARAT DAYA, ACEH | SUS - SUSOH</option>
+										                                        <option value="1005">ACEH JAYA, ACEH | CLG - CALANG</option>
+										                                        <option value="1003">ACEH SELATAN, ACEH | TPK - TAPAKTUAN</option>
+										                                        <option value="1002">ACEH SINGKIL, ACEH | SNL - SINGKIL</option>
+										                                        <option value="1001">ACEH SINGKIL, ACEH | BYK - PULAU BANYAK</option>
+										                                        <option value="694">ALOR, NUSA TENGGARA TIMUR | KBH - KALABAHI</option>
+										                                        <option value="946">AMBON, MALUKU | AMQ - AMBON</option>
+										                                        <option value="1437">AMBON, MALUKU | BUH - BATU MERAH</option>
+										                                        <option value="948">ASMAT, PAPUA SELATAN | AGS - AGATS</option>
+										                                        <option value="1329">ASMAT, PAPUA SELATAN | ATY - ATSY</option>
+										                                        <option value="1328">ASMAT, PAPUA SELATAN | BYN - BAYUN</option>
+										                                        <option value="803">BALIKPAPAN, KALIMANTAN TIMUR | BPN - BALIKPAPAN</option>
+										                                        <option value="395">BANDAR LAMPUNG, LAMPUNG | PNJ - PANJANG</option>
+										                                        <option value="868">BANGGAI, SULAWESI TENGAH | LUW - LUWUK</option>
+										                                        <option value="908">BANGGAI KEPULAUAN, SULAWESI TENGAH | BGG - BANGGAI</option>
+										                                        <option value="322">BANGKA, KEPULAUAN BANGKA BELITUNG | BLU - BELINYU</option>
+										                                        <option value="338">BANGKA SELATAN, KEPULAUAN BANGKA BELITUNG | SDI - SADAI</option>
+										                                        <option value="996">BARU, KALIMANTAN SELATAN | KTB - KOTABARU</option>
+										                                        <option value="1048">BARU, KALIMANTAN SELATAN | MBN - MARABATUAN</option>
+										                                        <option value="1050">BARU, KALIMANTAN SELATAN | MSR - MATASIRI</option>
+										                                        <option value="256">BATAM, KEPULAUAN RIAU | BUR - PULAU BATAM</option>
+										                                        <option value="921">BAU-BAU, SULAWESI TENGGARA | BBM - BAU-BAU</option>
+										                                        <option value="336">BELITUNG, KEPULAUAN BANGKA BELITUNG | TJQ - TANJUNG PANDAN</option>
+										                                        <option value="686">BELU, NUSA TENGGARA TIMUR | AAU - ATAPUPU</option>
+										                                        <option value="195">BENGKULU UTARA, BENGKULU | MKI - MALAKONI/P. ENGGANO</option>
+										                                        <option value="">BERAU, KALIMANTAN TIMUR | MRP - MATARITIP</option>
+										                                        <option value="1324">BIAK NUMFOR, PAPUA | IKU - KORIDO</option>
+										                                        <option value="973">BIAK NUMFOR, PAPUA | BIK - BIAK</option>
+										                                        <option value="655">BIMA, NUSA TENGGARA BARAT | BMU - BIMA</option>
+										                                        <option value="835">BITUNG, SULAWESI UTARA | BIT - BITUNG</option>
+										                                        <option value="1443">BONE, SULAWESI SELATAN | KKK - P. KALUKALUKUANG</option>
+										                                        <option value="898">BONTANG, KALIMANTAN TIMUR | LTU - BONTANG</option>
+										                                        <option value="1168">BULUKUMBA, SULAWESI SELATAN | MII - MACCINI BAJI</option>
+										                                        <option value="1424">BULUKUMBA, SULAWESI SELATAN | BBE - BULUKUMBA/LAPPE'E</option>
+										                                        <option value="1054">BUOL, SULAWESI TENGAH | LEK - LEOK</option>
+										                                        <option value="1055">BUOL, SULAWESI TENGAH | PLH - PALELEH</option>
+										                                        <option value="951">BURU, MALUKU | NAM - NAMLEA</option>
+										                                        <option value="929">BURU SELATAN, MALUKU | NRE - NAMROLE</option>
+										                                        <option value="1228">BURU SELATAN, MALUKU | ABL - AMBALAU</option>
+										                                        <option value="1231">BURU SELATAN, MALUKU | LQA - LEKSULA</option>
+										                                        <option value="613">DENPASAR, BALI | BOA - BENOA/DENPASAR</option>
+										                                        <option value="1425">DOMPU, NUSA TENGGARA BARAT | CLI - CALABAI</option>
+										                                        <option value="684">ENDE, NUSA TENGGARA TIMUR | ENE - ENDE</option>
+										                                        <option value="1353">FAKFAK, PAPUA BARAT | KOK - KOKAS</option>
+										                                        <option value="976">FAKFAK, PAPUA BARAT | FKQ - FAK-FAK</option>
+										                                        <option value="687">FLORES TIMUR, NUSA TENGGARA TIMUR | LKA - LARANTUKA</option>
+										                                        <option value="841">GORONTALO, GORONTALO | GTO - GORONTALO</option>
+										                                        <option value="842">GORONTALO UTARA, GORONTALO | KWG - KWANDANG</option>
+										                                        <option value="590">GRESIK, JAWA TIMUR | BWN - BAWEAN</option>
+										                                        <option value="160">GUNUNGSITOLI, SUMATERA UTARA | GNS - GUNUNG SITOLI</option>
+										                                        <option value="1466">HALMAHERA BARAT, MALUKU UTARA | JIO - JAILOLO</option>
+										                                        <option value="1268">HALMAHERA BARAT, MALUKU UTARA | BAT - BATAKA</option>
+										                                        <option value="1280">HALMAHERA SELATAN, MALUKU UTARA | PRJ - PIGARAJA</option>
+										                                        <option value="1275">HALMAHERA SELATAN, MALUKU UTARA | LWI - LAIWUI</option>
+										                                        <option value="925">HALMAHERA SELATAN, MALUKU UTARA | BBG - BABANG ( BACAN )</option>
+										                                        <option value="1287">HALMAHERA SELATAN, MALUKU UTARA | GMM - MANU/GAMUMU</option>
+										                                        <option value="941">HALMAHERA UTARA, MALUKU UTARA | TBO - TOBELO</option>
+										                                        <option value="431">JAKARTA UTARA, DKI JAKARTA | TPR - TANJUNG PRIOK</option>
+										                                        <option value="1038">JAKARTA UTARA, DKI JAKARTA | SKE - SUNDA KELAPA</option>
+										                                        <option value="974">JAYAPURA, PAPUA | DJJ - JAYAPURA</option>
+										                                        <option value="1462">JAYAPURA, PAPUA | DPE - DEPAPRE</option>
+										                                        <option value="1165">JENEPONTO, SULAWESI SELATAN | BGN - BANTAENG</option>
+										                                        <option value="496">JEPARA, JAWA TENGAH | LKK - KARIMUN JAWA</option>
+										                                        <option value="949">KAB. TUAL, MALUKU | TUA - TUAL</option>
+										                                        <option value="1189">KAB. TUAL, MALUKU | KUR - KUR</option>
+										                                        <option value="977">KAIMANA, PAPUA BARAT | KNG - KAIMANA</option>
+										                                        <option value="266">KARIMUN, KEPULAUAN RIAU | TJB - TANJUNG BALAI KARIMUN</option>
+										                                        <option value="1023">KAUR, BENGKULU | IBJ - BINTUHAN/LINAU</option>
+										                                        <option value="922">KENDARI, SULAWESI TENGGARA | KDI - KENDARI</option>
+										                                        <option value="269">KEPULAUAN ANAMBAS, KEPULAUAN RIAU | LTG - LETUNG</option>
+										                                        <option value="252">KEPULAUAN ANAMBAS, KEPULAUAN RIAU | TMP - TAREMPA</option>
+										                                        <option value="944">KEPULAUAN ARU, MALUKU | DOB - DOBO</option>
+										                                        <option value="1010">KEPULAUAN MENTAWAI, SUMATERA BARAT | SKB - POKAI</option>
+										                                        <option value="1021">KEPULAUAN MENTAWAI, SUMATERA BARAT | SIK - SIKAKAP</option>
+										                                        <option value="1015">KEPULAUAN MENTAWAI, SUMATERA BARAT | IME - MUARA SIBERUT/SIMAILEPET</option>
+										                                        <option value="1017">KEPULAUAN MENTAWAI, SUMATERA BARAT | TPT - TUA PEJAT</option>
+										                                        <option value="1020">KEPULAUAN MENTAWAI, SUMATERA BARAT | APU - PASAPUAT</option>
+										                                        <option value="1140">KEPULAUAN SANGIHE, SULAWESI UTARA | PAR - PARA</option>
+										                                        <option value="1135">KEPULAUAN SANGIHE, SULAWESI UTARA | KLM - KALAMA</option>
+										                                        <option value="829">KEPULAUAN SANGIHE, SULAWESI UTARA | KKG - KAHAKITANG</option>
+										                                        <option value="1134">KEPULAUAN SANGIHE, SULAWESI UTARA | NIG - NGALIPAENG</option>
+										                                        <option value="836">KEPULAUAN SANGIHE, SULAWESI UTARA | THA - TAHUNA</option>
+										                                        <option value="695">KEPULAUAN SELAYAR, SULAWESI SELATAN | PJM - JAMPEA</option>
+										                                        <option value="928">KEPULAUAN SULA, MALUKU UTARA | SQN - SANANA</option>
+										                                        <option value="1290">KEPULAUAN SULA, MALUKU UTARA | MBF - MALBUFA</option>
+										                                        <option value="1276">KEPULAUAN SULA, MALUKU UTARA | DOF - DOFA</option>
+										                                        <option value="844">KEPULAUAN TALAUD, SULAWESI UTARA | LRG - LIRUNG</option>
+										                                        <option value="1382">KEPULAUAN TALAUD, SULAWESI UTARA | BEO - BEO</option>
+										                                        <option value="1415">KEPULAUAN TALAUD, SULAWESI UTARA | MAT - MARAMPIT</option>
+										                                        <option value="845">KEPULAUAN TALAUD, SULAWESI UTARA | KTN - KARATUNG</option>
+										                                        <option value="846">KEPULAUAN TALAUD, SULAWESI UTARA | MGS - MIANGAS</option>
+										                                        <option value="1300">KEPULAUAN YAPEN, PAPUA | ANS - ANSUS</option>
+										                                        <option value="1315">KEPULAUAN YAPEN, PAPUA | IPM - POOM</option>
+										                                        <option value="1431">KEPULAUAN YAPEN, PAPUA | DAI - DAWAI</option>
+										                                        <option value="975">KEPULAUAN YAPEN, PAPUA | ZRI - SERUI</option>
+										                                        <option value="116">KETAPANG, KALIMANTAN BARAT | KDW - KENDAWANGAN</option>
+										                                        <option value="715">KETAPANG, KALIMANTAN BARAT | KTP - SUKABANGUN KETAPANG</option>
+										                                        <option value="1450">KONAWE UTARA, SULAWESI TENGGARA | MLW - MOLAWE</option>
+										                                        <option value="747">KOTAWARINGIN BARAT, KALIMANTAN TENGAH | KUM - KUMAI</option>
+										                                        <option value="324">KOTAWARINGIN BARAT, KALIMANTAN TENGAH | PLB - PANGKALAN BUN</option>
+										                                        <option value="746">KOTAWARINGIN TIMUR, KALIMANTAN TENGAH | SMQ - SAMPIT</option>
+										                                        <option value="681">KUPANG, NUSA TENGGARA TIMUR | TQP - KUPANG</option>
+										                                        <option value="688">LEMBATA, NUSA TENGGARA TIMUR | LWE - LEWOLEBA</option>
+										                                        <option value="1029">LINGGA, KEPULAUAN RIAU | SYG - SENAYANG</option>
+										                                        <option value="1031">LINGGA, KEPULAUAN RIAU | DAS - DABO SINGKEP</option>
+										                                        <option value="1406">LINGGA, KEPULAUAN RIAU | JGH - JAGOH</option>
+										                                        <option value="1032">LINGGA, KEPULAUAN RIAU | PJN - PEKAJANG</option>
+										                                        <option value="651">LOMBOK BARAT, NUSA TENGGARA BARAT | LMR - AMPENAN/LEMBAR</option>
+										                                        <option value="891">LUWU TIMUR, SULAWESI SELATAN | AGU - AWERANGE</option>
+										                                        <option value="1421">LUWU UTARA, SULAWESI SELATAN | BOR - BONERATE</option>
+										                                        <option value="1176">MAJENE, SULAWESI BARAT | PLI - PALIPI</option>
+										                                        <option value="1051">MAJENE, SULAWESI BARAT | MAJ - MAJENE</option>
+										                                        <option value="893">MAKASAR, SULAWESI SELATAN | MAK - MAKASSAR</option>
+										                                        <option value="962">MALUKU BARAT DAYA, MALUKU | LEI - LETI</option>
+										                                        <option value="960">MALUKU BARAT DAYA, MALUKU | IWI - ILWAKI</option>
+										                                        <option value="959">MALUKU BARAT DAYA, MALUKU | KWU - MOA</option>
+										                                        <option value="1195">MALUKU BARAT DAYA, MALUKU | KOG - KROING</option>
+										                                        <option value="1194">MALUKU BARAT DAYA, MALUKU | DAR - DAWERA/DAWELOR</option>
+										                                        <option value="1407">MALUKU BARAT DAYA, MALUKU | ASG - ARWALA / SUTILARANG</option>
+										                                        <option value="1253">MALUKU BARAT DAYA, MALUKU | LKS - LEROKIS</option>
+										                                        <option value="1408">MALUKU BARAT DAYA, MALUKU | UIA - ERAY/UPISERA</option>
+										                                        <option value="1196">MALUKU BARAT DAYA, MALUKU | MRL - MARSELA</option>
+										                                        <option value="1220">MALUKU BARAT DAYA, MALUKU | WUR - WULUR</option>
+										                                        <option value="961">MALUKU BARAT DAYA, MALUKU | LGN - LIRANG</option>
+										                                        <option value="956">MALUKU BARAT DAYA, MALUKU | KXR - KISAR</option>
+										                                        <option value="958">MALUKU BARAT DAYA, MALUKU | TPA - TEPA</option>
+										                                        <option value="947">MALUKU TENGAH, MALUKU | NDA - BANDA</option>
+										                                        <option value="953">MALUKU TENGAH, MALUKU | KBD - KOBISADAR</option>
+										                                        <option value="952">MALUKU TENGAH, MALUKU | AHI - AMAHAI</option>
+										                                        <option value="1224">MALUKU TENGAH, MALUKU | WBA - WAHAI</option>
+										                                        <option value="1210">MALUKU TENGGARA, MALUKU | ELT - ELAT</option>
+										                                        <option value="1190">MALUKU TENGGARA, MALUKU | ITS - TOYANDO</option>
+										                                        <option value="950">MALUKU TENGGARA BARAT, MALUKU | SXK - SAUMLAKI</option>
+										                                        <option value="1214">MALUKU TENGGARA BARAT, MALUKU | AAT - ADAUT</option>
+										                                        <option value="1215">MALUKU TENGGARA BARAT, MALUKU | SRX - SEIRA</option>
+										                                        <option value="957">MALUKU TENGGARA BARAT, MALUKU | LRT - LARAT</option>
+										                                        <option value="1179">MAMUJU, SULAWESI BARAT | IPZ - AMBO</option>
+										                                        <option value="1449">MANADO, SULAWESI UTARA | MDC - MANADO</option>
+										                                        <option value="672">MANGGARAI, NUSA TENGGARA TIMUR | REO - REO</option>
+										                                        <option value="662">MANGGARAI BARAT, NUSA TENGGARA TIMUR | LBO - LABUAN BAJO</option>
+										                                        <option value="972">MANOKWARI, PAPUA BARAT | MKW - MANOKWARI</option>
+										                                        <option value="1350">MANOKWARI, PAPUA BARAT | SKM - SAUKOREM</option>
+										                                        <option value="1302">MANOKWARI, PAPUA BARAT | ORA - ORANSBARI</option>
+										                                        <option value="1346">MAPPI, PAPUA SELATAN | BXD - BADE</option>
+										                                        <option value="1331">MAPPI, PAPUA SELATAN | EEI - ECI</option>
+										                                        <option value="1318">MAPPI, PAPUA SELATAN | MMR - MOOR</option>
+										                                        <option value="144">MEDAN, SUMATERA UTARA | BLW - BELAWAN</option>
+										                                        <option value="979">MERAUKE, PAPUA SELATAN | MKQ - MERAUKE</option>
+										                                        <option value="983">MIMIKA, PAPUA TENGAH | PMK - TIMIKA</option>
+										                                        <option value="920">MINAHASA SELATAN, SULAWESI UTARA | AUG - AMURANG</option>
+										                                        <option value="894">MINAHASA TENGGARA, SULAWESI UTARA | BLG - BELANG</option>
+										                                        <option value="867">MOROWALI, SULAWESI TENGAH | KAN - KOLONEDALE</option>
+										                                        <option value="1451">MOROWALI, SULAWESI TENGAH | BNU - BUNGKU</option>
+										                                        <option value="1024">MUKO-MUKO, BENGKULU | MPC - MUKO-MUKO</option>
+										                                        <option value="924">MUNA, SULAWESI TENGGARA | RAQ - RAHA</option>
+										                                        <option value="982">NABIRE, PAPUA TENGAH | NBX - NABIRE</option>
+										                                        <option value="663">NAGEKO, NUSA TENGGARA TIMUR | MOT - MARAPOKOT</option>
+										                                        <option value="255">NATUNA, KEPULAUAN RIAU | SRS - SERASAN</option>
+										                                        <option value="246">NATUNA, KEPULAUAN RIAU | MDA - MIDAI</option>
+										                                        <option value="1028">NATUNA, KEPULAUAN RIAU | RNI - RANAI</option>
+										                                        <option value="50">NATUNA, KEPULAUAN RIAU | SUI - SUBI</option>
+										                                        <option value="725">NATUNA, KEPULAUAN RIAU | STA - NATUNA</option>
+										                                        <option value="49">NATUNA, KEPULAUAN RIAU | IPC - PULAU LAUT</option>
+										                                        <option value="727">NATUNA, KEPULAUAN RIAU | SDU - SEDANAU</option>
+										                                        <option value="809">NUNUKAN, KALIMANTAN TIMUR | TTK - NUNUKAN</option>
+										                                        <option value="191">PADANG, SUMATERA BARAT | TBY - TELUK BAYUR</option>
+										                                        <option value="863">PALU, SULAWESI TENGAH | PTL - PANTOLOAN</option>
+										                                        <option value="1172">PANGKAJENE KEPULAUAN, SULAWESI SELATAN | SPK - P. SAPUKA</option>
+										                                        <option value="1166">PANGKAJENE KEPULAUAN, SULAWESI SELATAN | JNT - JINATO</option>
+										                                        <option value="1422">PANGKAJENE KEPULAUAN, SULAWESI SELATAN | KLT - KALATOA</option>
+										                                        <option value="1173">PANGKAJENE KEPULAUAN, SULAWESI SELATAN | SAI - P. SAILUS</option>
+										                                        <option value="1167">PANGKAJENE KEPULAUAN, SULAWESI SELATAN | KYD - KAYUADI</option>
+										                                        <option value="892">PARE-PARE, SULAWESI SELATAN | ARE - PARE-PARE</option>
+										                                        <option value="714">PONTIANAK, KALIMANTAN BARAT | PNK - PONTIANAK</option>
+										                                        <option value="840">POSO, SULAWESI TENGAH | PSJ - POSO</option>
+										                                        <option value="926">PULAU MERANTI, RIAU | MRT - MERANTI/DORAK</option>
+										                                        <option value="1274">PULAU MOROTAI, MALUKU UTARA | DRA - DARUBA</option>
+										                                        <option value="1366">RAJA AMPAT, PAPUA BARAT | WSA - WAISAI</option>
+										                                        <option value="1379">RAJA AMPAT, PAPUA BARAT | FAI - FANI</option>
+										                                        <option value="1226">RAJA AMPAT, PAPUA BARAT | WIA - WAIGAMA</option>
+										                                        <option value="696">ROTENDAO, NUSA TENGGARA TIMUR | BRO - BAA, ROTE</option>
+										                                        <option value="697">SABU RAIJUA, NUSA TENGGARA TIMUR | ISA - SEBA, SABU</option>
+										                                        <option value="724">SAMBAS, KALIMANTAN BARAT | SNE - SINTETE</option>
+										                                        <option value="1297">SARMI, PAPUA | ZRM - SARMI</option>
+										                                        <option value="494">SEMARANG, JAWA TENGAH | SRG - SEMARANG</option>
+										                                        <option value="1237">SERAM BAGIAN BARAT, MALUKU | IBL - BUANO</option>
+										                                        <option value="1410">SERAM BAGIAN BARAT, MALUKU | HUU - HATU PIRU</option>
+										                                        <option value="1372">SERAM BAGIAN TIMUR, MALUKU | KSI - KESUI</option>
+										                                        <option value="1184">SERAM BAGIAN TIMUR, MALUKU | GMR - GOROM</option>
+										                                        <option value="954">SERAM BAGIAN TIMUR, MALUKU | BLA - BULA</option>
+										                                        <option value="955">SERAM BAGIAN TIMUR, MALUKU | GER - GESER</option>
+										                                        <option value="159">SIBOLGA, SUMATERA UTARA | SLG - SIBOLGA</option>
+										                                        <option value="683">SIKA, NUSA TENGGARA TIMUR | MOF - MAUMERE</option>
+										                                        <option value="1000">SIMEULUE, ACEH | SNG - SINABANG</option>
+										                                        <option value="1137">SITARO, SULAWESI UTARA | PEE - PEHE</option>
+										                                        <option value="1417">SITARO, SULAWESI UTARA | SWG - SAWANG</option>
+										                                        <option value="837">SITARO, SULAWESI UTARA | USI - ULU SIAU</option>
+										                                        <option value="1139">SITARO, SULAWESI UTARA | BHS - BUHIAS</option>
+										                                        <option value="971">SORONG, PAPUA BARAT | SOQ - SORONG</option>
+										                                        <option value="464">SUBANG, JAWA BARAT | PTM - PATIMBAN</option>
+										                                        <option value="673">SUMBA BARAT DAYA, NUSA TENGGARA TIMUR | WIO - WAIKELO</option>
+										                                        <option value="1413">SUMBA TENGAH, NUSA TENGGARA TIMUR | MMO - MAMBORO</option>
+										                                        <option value="685">SUMBA TIMUR, NUSA TENGGARA TIMUR | WGP - WAINGAPU</option>
+										                                        <option value="661">SUMBAWA, NUSA TENGGARA BARAT | BAD - BADAS</option>
+										                                        <option value="576">SUMENEP, JAWA TIMUR | KAT - KALIANGET</option>
+										                                        <option value="1062">SUMENEP, JAWA TIMUR | ISG - SAPUDI</option>
+										                                        <option value="1061">SUMENEP, JAWA TIMUR | KRN - KERAMAIAN</option>
+										                                        <option value="591">SUMENEP, JAWA TIMUR | KNN - KANGEAN</option>
+										                                        <option value="1447">SUMENEP, JAWA TIMUR | RAS - P. RAAS</option>
+										                                        <option value="592">SUMENEP, JAWA TIMUR | MSI - MASALEMBO</option>
+										                                        <option value="1064">SUMENEP, JAWA TIMUR | SPN - SAPEKEN</option>
+										                                        <option value="563">SURABAYA, JAWA TIMUR | SUB - SURABAYA</option>
+										                                        <option value="1365">TAMBRAUW, PAPUA BARAT | SSR - SAUSAPOR</option>
+										                                        <option value="1392">TAMBRAUW, PAPUA BARAT | MEA - MEGA</option>
+										                                        <option value="773">TANAH BUMBU, KALIMANTAN SELATAN | SUR - BATULICIN</option>
+										                                        <option value="245">TANJUNG PINANG, KEPULAUAN RIAU | TNJ - TANJUNG PINANG</option>
+										                                        <option value="251">TANJUNG PINANG, KEPULAUAN RIAU | SKJ - KIJANG</option>
+										                                        <option value="808">TARAKAN, KALIMANTAN TIMUR | MLD - TARAKAN</option>
+										                                        <option value="51">TELUK BINTUNI, PAPUA BARAT | NTI - BINTUNI</option>
+										                                        <option value="981">TELUK WONDAMA, PAPUA BARAT | WSR - WASIOR</option>
+										                                        <option value="942">TERNATE, MALUKU UTARA | TEI - TERNATE</option>
+										                                        <option value="1267">TERNATE, MALUKU UTARA | TFE - TIFURE</option>
+										                                        <option value="1445">TERNATE, MALUKU UTARA | MOI - MOTI</option>
+										                                        <option value="889">TIDORE KEPULAUAN, MALUKU UTARA | PYH - TIDORE</option>
+										                                        <option value="1461">TIDORE KEPULAUAN, MALUKU UTARA | PYH - GITA PAYAHE</option>
+										                                        <option value="1256">TIDORE KEPULAUAN, MALUKU UTARA | SIO - SOASIO/GOTO</option>
+										                                        <option value="839">TOJO UNA-UNA, SULAWESI TENGAH | WAK - WAKAI, TOGIAN</option>
+										                                        <option value="861">TOLI-TOLI, SULAWESI TENGAH | TLI - TOLI-TOLI</option>
+										                                        <option value="923">WAKATOBI, SULAWESI TENGGARA | WCI - WANCI</option>
+										                                        <option value="1299">WAROPEN, PAPUA | WRN - WAREN</option>
+										                                        <option value="433">  |  - CILEGON</option>
+										                                        <option value="1163"> KALIMANTAN TIMUR | SNYK - SUNGAI NYAMUK/SEBATIK</option>
+										                                        <option value="463">  |  - CIREBON</option>
+																				</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 164px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-ticket_org-container"><span class="select2-selection__rendered" id="select2-ticket_org-container" title="Pilih Asal Kota/Pelabuhan">Pilih Asal Kota/Pelabuhan  </span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+									</div>
+									<span class="changes" id="swap"></span>
+									<div class="col custom-select">
+										<label>Ke</label>
+										<select name="ticket_des" id="ticket_des" class="select2-modif select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+											<option value="" selected="selected">Pilih Tujuan Kota/Pelabuhan</option>
+										<!-- <option value="02">dua</option> -->
+										                                        <option value="108">ACEH BARAT, ACEH | MEQ - MEULABOH</option>
+										                                        <option value="1004">ACEH BARAT DAYA, ACEH | SUS - SUSOH</option>
+										                                        <option value="1005">ACEH JAYA, ACEH | CLG - CALANG</option>
+										                                        <option value="1003">ACEH SELATAN, ACEH | TPK - TAPAKTUAN</option>
+										                                        <option value="1001">ACEH SINGKIL, ACEH | BYK - PULAU BANYAK</option>
+										                                        <option value="1002">ACEH SINGKIL, ACEH | SNL - SINGKIL</option>
+										                                        <option value="694">ALOR, NUSA TENGGARA TIMUR | KBH - KALABAHI</option>
+										                                        <option value="946">AMBON, MALUKU | AMQ - AMBON</option>
+										                                        <option value="1437">AMBON, MALUKU | BUH - BATU MERAH</option>
+										                                        <option value="1329">ASMAT, PAPUA SELATAN | ATY - ATSY</option>
+										                                        <option value="1328">ASMAT, PAPUA SELATAN | BYN - BAYUN</option>
+										                                        <option value="948">ASMAT, PAPUA SELATAN | AGS - AGATS</option>
+										                                        <option value="803">BALIKPAPAN, KALIMANTAN TIMUR | BPN - BALIKPAPAN</option>
+										                                        <option value="395">BANDAR LAMPUNG, LAMPUNG | PNJ - PANJANG</option>
+										                                        <option value="868">BANGGAI, SULAWESI TENGAH | LUW - LUWUK</option>
+										                                        <option value="908">BANGGAI KEPULAUAN, SULAWESI TENGAH | BGG - BANGGAI</option>
+										                                        <option value="322">BANGKA, KEPULAUAN BANGKA BELITUNG | BLU - BELINYU</option>
+										                                        <option value="338">BANGKA SELATAN, KEPULAUAN BANGKA BELITUNG | SDI - SADAI</option>
+										                                        <option value="996">BARU, KALIMANTAN SELATAN | KTB - KOTABARU</option>
+										                                        <option value="1048">BARU, KALIMANTAN SELATAN | MBN - MARABATUAN</option>
+										                                        <option value="1050">BARU, KALIMANTAN SELATAN | MSR - MATASIRI</option>
+										                                        <option value="256">BATAM, KEPULAUAN RIAU | BUR - PULAU BATAM</option>
+										                                        <option value="921">BAU-BAU, SULAWESI TENGGARA | BBM - BAU-BAU</option>
+										                                        <option value="336">BELITUNG, KEPULAUAN BANGKA BELITUNG | TJQ - TANJUNG PANDAN</option>
+										                                        <option value="686">BELU, NUSA TENGGARA TIMUR | AAU - ATAPUPU</option>
+										                                        <option value="195">BENGKULU UTARA, BENGKULU | MKI - MALAKONI/P. ENGGANO</option>
+										                                        <option value="">BERAU, KALIMANTAN TIMUR | MRP - MATARITIP</option>
+										                                        <option value="1324">BIAK NUMFOR, PAPUA | IKU - KORIDO</option>
+										                                        <option value="973">BIAK NUMFOR, PAPUA | BIK - BIAK</option>
+										                                        <option value="655">BIMA, NUSA TENGGARA BARAT | BMU - BIMA</option>
+										                                        <option value="835">BITUNG, SULAWESI UTARA | BIT - BITUNG</option>
+										                                        <option value="1443">BONE, SULAWESI SELATAN | KKK - P. KALUKALUKUANG</option>
+										                                        <option value="898">BONTANG, KALIMANTAN TIMUR | LTU - BONTANG</option>
+										                                        <option value="1424">BULUKUMBA, SULAWESI SELATAN | BBE - BULUKUMBA/LAPPE'E</option>
+										                                        <option value="1168">BULUKUMBA, SULAWESI SELATAN | MII - MACCINI BAJI</option>
+										                                        <option value="1054">BUOL, SULAWESI TENGAH | LEK - LEOK</option>
+										                                        <option value="1055">BUOL, SULAWESI TENGAH | PLH - PALELEH</option>
+										                                        <option value="951">BURU, MALUKU | NAM - NAMLEA</option>
+										                                        <option value="929">BURU SELATAN, MALUKU | NRE - NAMROLE</option>
+										                                        <option value="1231">BURU SELATAN, MALUKU | LQA - LEKSULA</option>
+										                                        <option value="1228">BURU SELATAN, MALUKU | ABL - AMBALAU</option>
+										                                        <option value="613">DENPASAR, BALI | BOA - BENOA/DENPASAR</option>
+										                                        <option value="1425">DOMPU, NUSA TENGGARA BARAT | CLI - CALABAI</option>
+										                                        <option value="684">ENDE, NUSA TENGGARA TIMUR | ENE - ENDE</option>
+										                                        <option value="976">FAKFAK, PAPUA BARAT | FKQ - FAK-FAK</option>
+										                                        <option value="1353">FAKFAK, PAPUA BARAT | KOK - KOKAS</option>
+										                                        <option value="687">FLORES TIMUR, NUSA TENGGARA TIMUR | LKA - LARANTUKA</option>
+										                                        <option value="841">GORONTALO, GORONTALO | GTO - GORONTALO</option>
+										                                        <option value="842">GORONTALO UTARA, GORONTALO | KWG - KWANDANG</option>
+										                                        <option value="590">GRESIK, JAWA TIMUR | BWN - BAWEAN</option>
+										                                        <option value="160">GUNUNGSITOLI, SUMATERA UTARA | GNS - GUNUNG SITOLI</option>
+										                                        <option value="1466">HALMAHERA BARAT, MALUKU UTARA | JIO - JAILOLO</option>
+										                                        <option value="1268">HALMAHERA BARAT, MALUKU UTARA | BAT - BATAKA</option>
+										                                        <option value="1287">HALMAHERA SELATAN, MALUKU UTARA | GMM - MANU/GAMUMU</option>
+										                                        <option value="1275">HALMAHERA SELATAN, MALUKU UTARA | LWI - LAIWUI</option>
+										                                        <option value="1280">HALMAHERA SELATAN, MALUKU UTARA | PRJ - PIGARAJA</option>
+										                                        <option value="925">HALMAHERA SELATAN, MALUKU UTARA | BBG - BABANG ( BACAN )</option>
+										                                        <option value="941">HALMAHERA UTARA, MALUKU UTARA | TBO - TOBELO</option>
+										                                        <option value="431">JAKARTA UTARA, DKI JAKARTA | TPR - TANJUNG PRIOK</option>
+										                                        <option value="1038">JAKARTA UTARA, DKI JAKARTA | SKE - SUNDA KELAPA</option>
+										                                        <option value="974">JAYAPURA, PAPUA | DJJ - JAYAPURA</option>
+										                                        <option value="1462">JAYAPURA, PAPUA | DPE - DEPAPRE</option>
+										                                        <option value="1165">JENEPONTO, SULAWESI SELATAN | BGN - BANTAENG</option>
+										                                        <option value="496">JEPARA, JAWA TENGAH | LKK - KARIMUN JAWA</option>
+										                                        <option value="949">KAB. TUAL, MALUKU | TUA - TUAL</option>
+										                                        <option value="1189">KAB. TUAL, MALUKU | KUR - KUR</option>
+										                                        <option value="977">KAIMANA, PAPUA BARAT | KNG - KAIMANA</option>
+										                                        <option value="266">KARIMUN, KEPULAUAN RIAU | TJB - TANJUNG BALAI KARIMUN</option>
+										                                        <option value="1023">KAUR, BENGKULU | IBJ - BINTUHAN/LINAU</option>
+										                                        <option value="922">KENDARI, SULAWESI TENGGARA | KDI - KENDARI</option>
+										                                        <option value="252">KEPULAUAN ANAMBAS, KEPULAUAN RIAU | TMP - TAREMPA</option>
+										                                        <option value="269">KEPULAUAN ANAMBAS, KEPULAUAN RIAU | LTG - LETUNG</option>
+										                                        <option value="944">KEPULAUAN ARU, MALUKU | DOB - DOBO</option>
+										                                        <option value="1021">KEPULAUAN MENTAWAI, SUMATERA BARAT | SIK - SIKAKAP</option>
+										                                        <option value="1017">KEPULAUAN MENTAWAI, SUMATERA BARAT | TPT - TUA PEJAT</option>
+										                                        <option value="1020">KEPULAUAN MENTAWAI, SUMATERA BARAT | APU - PASAPUAT</option>
+										                                        <option value="1015">KEPULAUAN MENTAWAI, SUMATERA BARAT | IME - MUARA SIBERUT/SIMAILEPET</option>
+										                                        <option value="1010">KEPULAUAN MENTAWAI, SUMATERA BARAT | SKB - POKAI</option>
+										                                        <option value="829">KEPULAUAN SANGIHE, SULAWESI UTARA | KKG - KAHAKITANG</option>
+										                                        <option value="1135">KEPULAUAN SANGIHE, SULAWESI UTARA | KLM - KALAMA</option>
+										                                        <option value="1140">KEPULAUAN SANGIHE, SULAWESI UTARA | PAR - PARA</option>
+										                                        <option value="1134">KEPULAUAN SANGIHE, SULAWESI UTARA | NIG - NGALIPAENG</option>
+										                                        <option value="836">KEPULAUAN SANGIHE, SULAWESI UTARA | THA - TAHUNA</option>
+										                                        <option value="695">KEPULAUAN SELAYAR, SULAWESI SELATAN | PJM - JAMPEA</option>
+										                                        <option value="1276">KEPULAUAN SULA, MALUKU UTARA | DOF - DOFA</option>
+										                                        <option value="928">KEPULAUAN SULA, MALUKU UTARA | SQN - SANANA</option>
+										                                        <option value="1290">KEPULAUAN SULA, MALUKU UTARA | MBF - MALBUFA</option>
+										                                        <option value="846">KEPULAUAN TALAUD, SULAWESI UTARA | MGS - MIANGAS</option>
+										                                        <option value="844">KEPULAUAN TALAUD, SULAWESI UTARA | LRG - LIRUNG</option>
+										                                        <option value="1382">KEPULAUAN TALAUD, SULAWESI UTARA | BEO - BEO</option>
+										                                        <option value="845">KEPULAUAN TALAUD, SULAWESI UTARA | KTN - KARATUNG</option>
+										                                        <option value="1415">KEPULAUAN TALAUD, SULAWESI UTARA | MAT - MARAMPIT</option>
+										                                        <option value="1300">KEPULAUAN YAPEN, PAPUA | ANS - ANSUS</option>
+										                                        <option value="1315">KEPULAUAN YAPEN, PAPUA | IPM - POOM</option>
+										                                        <option value="975">KEPULAUAN YAPEN, PAPUA | ZRI - SERUI</option>
+										                                        <option value="1431">KEPULAUAN YAPEN, PAPUA | DAI - DAWAI</option>
+										                                        <option value="715">KETAPANG, KALIMANTAN BARAT | KTP - SUKABANGUN KETAPANG</option>
+										                                        <option value="116">KETAPANG, KALIMANTAN BARAT | KDW - KENDAWANGAN</option>
+										                                        <option value="1450">KONAWE UTARA, SULAWESI TENGGARA | MLW - MOLAWE</option>
+										                                        <option value="324">KOTAWARINGIN BARAT, KALIMANTAN TENGAH | PLB - PANGKALAN BUN</option>
+										                                        <option value="747">KOTAWARINGIN BARAT, KALIMANTAN TENGAH | KUM - KUMAI</option>
+										                                        <option value="746">KOTAWARINGIN TIMUR, KALIMANTAN TENGAH | SMQ - SAMPIT</option>
+										                                        <option value="681">KUPANG, NUSA TENGGARA TIMUR | TQP - KUPANG</option>
+										                                        <option value="688">LEMBATA, NUSA TENGGARA TIMUR | LWE - LEWOLEBA</option>
+										                                        <option value="1029">LINGGA, KEPULAUAN RIAU | SYG - SENAYANG</option>
+										                                        <option value="1032">LINGGA, KEPULAUAN RIAU | PJN - PEKAJANG</option>
+										                                        <option value="1031">LINGGA, KEPULAUAN RIAU | DAS - DABO SINGKEP</option>
+										                                        <option value="1406">LINGGA, KEPULAUAN RIAU | JGH - JAGOH</option>
+										                                        <option value="651">LOMBOK BARAT, NUSA TENGGARA BARAT | LMR - AMPENAN/LEMBAR</option>
+										                                        <option value="891">LUWU TIMUR, SULAWESI SELATAN | AGU - AWERANGE</option>
+										                                        <option value="1421">LUWU UTARA, SULAWESI SELATAN | BOR - BONERATE</option>
+										                                        <option value="1176">MAJENE, SULAWESI BARAT | PLI - PALIPI</option>
+										                                        <option value="1051">MAJENE, SULAWESI BARAT | MAJ - MAJENE</option>
+										                                        <option value="893">MAKASAR, SULAWESI SELATAN | MAK - MAKASSAR</option>
+										                                        <option value="956">MALUKU BARAT DAYA, MALUKU | KXR - KISAR</option>
+										                                        <option value="1220">MALUKU BARAT DAYA, MALUKU | WUR - WULUR</option>
+										                                        <option value="1408">MALUKU BARAT DAYA, MALUKU | UIA - ERAY/UPISERA</option>
+										                                        <option value="1253">MALUKU BARAT DAYA, MALUKU | LKS - LEROKIS</option>
+										                                        <option value="1195">MALUKU BARAT DAYA, MALUKU | KOG - KROING</option>
+										                                        <option value="959">MALUKU BARAT DAYA, MALUKU | KWU - MOA</option>
+										                                        <option value="961">MALUKU BARAT DAYA, MALUKU | LGN - LIRANG</option>
+										                                        <option value="1196">MALUKU BARAT DAYA, MALUKU | MRL - MARSELA</option>
+										                                        <option value="1407">MALUKU BARAT DAYA, MALUKU | ASG - ARWALA / SUTILARANG</option>
+										                                        <option value="960">MALUKU BARAT DAYA, MALUKU | IWI - ILWAKI</option>
+										                                        <option value="962">MALUKU BARAT DAYA, MALUKU | LEI - LETI</option>
+										                                        <option value="958">MALUKU BARAT DAYA, MALUKU | TPA - TEPA</option>
+										                                        <option value="1194">MALUKU BARAT DAYA, MALUKU | DAR - DAWERA/DAWELOR</option>
+										                                        <option value="952">MALUKU TENGAH, MALUKU | AHI - AMAHAI</option>
+										                                        <option value="947">MALUKU TENGAH, MALUKU | NDA - BANDA</option>
+										                                        <option value="1224">MALUKU TENGAH, MALUKU | WBA - WAHAI</option>
+										                                        <option value="953">MALUKU TENGAH, MALUKU | KBD - KOBISADAR</option>
+										                                        <option value="1190">MALUKU TENGGARA, MALUKU | ITS - TOYANDO</option>
+										                                        <option value="1210">MALUKU TENGGARA, MALUKU | ELT - ELAT</option>
+										                                        <option value="1214">MALUKU TENGGARA BARAT, MALUKU | AAT - ADAUT</option>
+										                                        <option value="1215">MALUKU TENGGARA BARAT, MALUKU | SRX - SEIRA</option>
+										                                        <option value="957">MALUKU TENGGARA BARAT, MALUKU | LRT - LARAT</option>
+										                                        <option value="950">MALUKU TENGGARA BARAT, MALUKU | SXK - SAUMLAKI</option>
+										                                        <option value="1179">MAMUJU, SULAWESI BARAT | IPZ - AMBO</option>
+										                                        <option value="1449">MANADO, SULAWESI UTARA | MDC - MANADO</option>
+										                                        <option value="672">MANGGARAI, NUSA TENGGARA TIMUR | REO - REO</option>
+										                                        <option value="662">MANGGARAI BARAT, NUSA TENGGARA TIMUR | LBO - LABUAN BAJO</option>
+										                                        <option value="1350">MANOKWARI, PAPUA BARAT | SKM - SAUKOREM</option>
+										                                        <option value="972">MANOKWARI, PAPUA BARAT | MKW - MANOKWARI</option>
+										                                        <option value="1302">MANOKWARI, PAPUA BARAT | ORA - ORANSBARI</option>
+										                                        <option value="1346">MAPPI, PAPUA SELATAN | BXD - BADE</option>
+										                                        <option value="1318">MAPPI, PAPUA SELATAN | MMR - MOOR</option>
+										                                        <option value="1331">MAPPI, PAPUA SELATAN | EEI - ECI</option>
+										                                        <option value="144">MEDAN, SUMATERA UTARA | BLW - BELAWAN</option>
+										                                        <option value="979">MERAUKE, PAPUA SELATAN | MKQ - MERAUKE</option>
+										                                        <option value="983">MIMIKA, PAPUA TENGAH | PMK - TIMIKA</option>
+										                                        <option value="920">MINAHASA SELATAN, SULAWESI UTARA | AUG - AMURANG</option>
+										                                        <option value="894">MINAHASA TENGGARA, SULAWESI UTARA | BLG - BELANG</option>
+										                                        <option value="1451">MOROWALI, SULAWESI TENGAH | BNU - BUNGKU</option>
+										                                        <option value="867">MOROWALI, SULAWESI TENGAH | KAN - KOLONEDALE</option>
+										                                        <option value="1024">MUKO-MUKO, BENGKULU | MPC - MUKO-MUKO</option>
+										                                        <option value="924">MUNA, SULAWESI TENGGARA | RAQ - RAHA</option>
+										                                        <option value="982">NABIRE, PAPUA TENGAH | NBX - NABIRE</option>
+										                                        <option value="663">NAGEKO, NUSA TENGGARA TIMUR | MOT - MARAPOKOT</option>
+										                                        <option value="246">NATUNA, KEPULAUAN RIAU | MDA - MIDAI</option>
+										                                        <option value="49">NATUNA, KEPULAUAN RIAU | IPC - PULAU LAUT</option>
+										                                        <option value="50">NATUNA, KEPULAUAN RIAU | SUI - SUBI</option>
+										                                        <option value="725">NATUNA, KEPULAUAN RIAU | STA - NATUNA</option>
+										                                        <option value="1028">NATUNA, KEPULAUAN RIAU | RNI - RANAI</option>
+										                                        <option value="727">NATUNA, KEPULAUAN RIAU | SDU - SEDANAU</option>
+										                                        <option value="255">NATUNA, KEPULAUAN RIAU | SRS - SERASAN</option>
+										                                        <option value="809">NUNUKAN, KALIMANTAN TIMUR | TTK - NUNUKAN</option>
+										                                        <option value="191">PADANG, SUMATERA BARAT | TBY - TELUK BAYUR</option>
+										                                        <option value="863">PALU, SULAWESI TENGAH | PTL - PANTOLOAN</option>
+										                                        <option value="1167">PANGKAJENE KEPULAUAN, SULAWESI SELATAN | KYD - KAYUADI</option>
+										                                        <option value="1166">PANGKAJENE KEPULAUAN, SULAWESI SELATAN | JNT - JINATO</option>
+										                                        <option value="1422">PANGKAJENE KEPULAUAN, SULAWESI SELATAN | KLT - KALATOA</option>
+										                                        <option value="1173">PANGKAJENE KEPULAUAN, SULAWESI SELATAN | SAI - P. SAILUS</option>
+										                                        <option value="1172">PANGKAJENE KEPULAUAN, SULAWESI SELATAN | SPK - P. SAPUKA</option>
+										                                        <option value="892">PARE-PARE, SULAWESI SELATAN | ARE - PARE-PARE</option>
+										                                        <option value="714">PONTIANAK, KALIMANTAN BARAT | PNK - PONTIANAK</option>
+										                                        <option value="840">POSO, SULAWESI TENGAH | PSJ - POSO</option>
+										                                        <option value="926">PULAU MERANTI, RIAU | MRT - MERANTI/DORAK</option>
+										                                        <option value="1274">PULAU MOROTAI, MALUKU UTARA | DRA - DARUBA</option>
+										                                        <option value="1379">RAJA AMPAT, PAPUA BARAT | FAI - FANI</option>
+										                                        <option value="1366">RAJA AMPAT, PAPUA BARAT | WSA - WAISAI</option>
+										                                        <option value="1226">RAJA AMPAT, PAPUA BARAT | WIA - WAIGAMA</option>
+										                                        <option value="696">ROTENDAO, NUSA TENGGARA TIMUR | BRO - BAA, ROTE</option>
+										                                        <option value="697">SABU RAIJUA, NUSA TENGGARA TIMUR | ISA - SEBA, SABU</option>
+										                                        <option value="724">SAMBAS, KALIMANTAN BARAT | SNE - SINTETE</option>
+										                                        <option value="1297">SARMI, PAPUA | ZRM - SARMI</option>
+										                                        <option value="494">SEMARANG, JAWA TENGAH | SRG - SEMARANG</option>
+										                                        <option value="1410">SERAM BAGIAN BARAT, MALUKU | HUU - HATU PIRU</option>
+										                                        <option value="1237">SERAM BAGIAN BARAT, MALUKU | IBL - BUANO</option>
+										                                        <option value="954">SERAM BAGIAN TIMUR, MALUKU | BLA - BULA</option>
+										                                        <option value="1184">SERAM BAGIAN TIMUR, MALUKU | GMR - GOROM</option>
+										                                        <option value="955">SERAM BAGIAN TIMUR, MALUKU | GER - GESER</option>
+										                                        <option value="1372">SERAM BAGIAN TIMUR, MALUKU | KSI - KESUI</option>
+										                                        <option value="159">SIBOLGA, SUMATERA UTARA | SLG - SIBOLGA</option>
+										                                        <option value="683">SIKA, NUSA TENGGARA TIMUR | MOF - MAUMERE</option>
+										                                        <option value="1000">SIMEULUE, ACEH | SNG - SINABANG</option>
+										                                        <option value="1139">SITARO, SULAWESI UTARA | BHS - BUHIAS</option>
+										                                        <option value="1137">SITARO, SULAWESI UTARA | PEE - PEHE</option>
+										                                        <option value="837">SITARO, SULAWESI UTARA | USI - ULU SIAU</option>
+										                                        <option value="1417">SITARO, SULAWESI UTARA | SWG - SAWANG</option>
+										                                        <option value="971">SORONG, PAPUA BARAT | SOQ - SORONG</option>
+										                                        <option value="464">SUBANG, JAWA BARAT | PTM - PATIMBAN</option>
+										                                        <option value="673">SUMBA BARAT DAYA, NUSA TENGGARA TIMUR | WIO - WAIKELO</option>
+										                                        <option value="1413">SUMBA TENGAH, NUSA TENGGARA TIMUR | MMO - MAMBORO</option>
+										                                        <option value="685">SUMBA TIMUR, NUSA TENGGARA TIMUR | WGP - WAINGAPU</option>
+										                                        <option value="661">SUMBAWA, NUSA TENGGARA BARAT | BAD - BADAS</option>
+										                                        <option value="1064">SUMENEP, JAWA TIMUR | SPN - SAPEKEN</option>
+										                                        <option value="1062">SUMENEP, JAWA TIMUR | ISG - SAPUDI</option>
+										                                        <option value="591">SUMENEP, JAWA TIMUR | KNN - KANGEAN</option>
+										                                        <option value="576">SUMENEP, JAWA TIMUR | KAT - KALIANGET</option>
+										                                        <option value="1447">SUMENEP, JAWA TIMUR | RAS - P. RAAS</option>
+										                                        <option value="1061">SUMENEP, JAWA TIMUR | KRN - KERAMAIAN</option>
+										                                        <option value="592">SUMENEP, JAWA TIMUR | MSI - MASALEMBO</option>
+										                                        <option value="563">SURABAYA, JAWA TIMUR | SUB - SURABAYA</option>
+										                                        <option value="1392">TAMBRAUW, PAPUA BARAT | MEA - MEGA</option>
+										                                        <option value="1365">TAMBRAUW, PAPUA BARAT | SSR - SAUSAPOR</option>
+										                                        <option value="773">TANAH BUMBU, KALIMANTAN SELATAN | SUR - BATULICIN</option>
+										                                        <option value="245">TANJUNG PINANG, KEPULAUAN RIAU | TNJ - TANJUNG PINANG</option>
+										                                        <option value="251">TANJUNG PINANG, KEPULAUAN RIAU | SKJ - KIJANG</option>
+										                                        <option value="808">TARAKAN, KALIMANTAN TIMUR | MLD - TARAKAN</option>
+										                                        <option value="51">TELUK BINTUNI, PAPUA BARAT | NTI - BINTUNI</option>
+										                                        <option value="981">TELUK WONDAMA, PAPUA BARAT | WSR - WASIOR</option>
+										                                        <option value="942">TERNATE, MALUKU UTARA | TEI - TERNATE</option>
+										                                        <option value="1267">TERNATE, MALUKU UTARA | TFE - TIFURE</option>
+										                                        <option value="1445">TERNATE, MALUKU UTARA | MOI - MOTI</option>
+										                                        <option value="1256">TIDORE KEPULAUAN, MALUKU UTARA | SIO - SOASIO/GOTO</option>
+										                                        <option value="1461">TIDORE KEPULAUAN, MALUKU UTARA | PYH - GITA PAYAHE</option>
+										                                        <option value="889">TIDORE KEPULAUAN, MALUKU UTARA | PYH - TIDORE</option>
+										                                        <option value="839">TOJO UNA-UNA, SULAWESI TENGAH | WAK - WAKAI, TOGIAN</option>
+										                                        <option value="861">TOLI-TOLI, SULAWESI TENGAH | TLI - TOLI-TOLI</option>
+										                                        <option value="923">WAKATOBI, SULAWESI TENGGARA | WCI - WANCI</option>
+										                                        <option value="1299">WAROPEN, PAPUA | WRN - WAREN</option>
+										                                        <option value="433">  |  - CILEGON</option>
+										                                        <option value="1163"> KALIMANTAN TIMUR | SNYK - SUNGAI NYAMUK/SEBATIK</option>
+																			</select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 168px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-ticket_des-container"><span class="select2-selection__rendered" id="select2-ticket_des-container" title="Pilih Tujuan Kota/Pelabuhan">Pilih Tujuan Kota/Pelabuhan  </span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+									</div>
+								</div>
+							
+							</div>
+							<div class="row">
+								<div class="col35">
+									<span class="ltitle">Kelas Kapal</span>
+									<div class="col">
+										<input type="hidden" name="available" id="available" value="0">
+										<select name="ticket_class" id="ticket_class">
+											<option value="">Pilih Semua Kelas Kapal</option>
+										<!-- <option value="all" >Semua Kelas Kabin</option> -->
+																					<option value="1">KELAS 1</option>
+																					<option value="1A">KELAS 1A</option>
+																					<option value="1B">KELAS 1B</option>
+																					<option value="2">KELAS 2</option>
+																					<option value="2A">KELAS 2A</option>
+																					<option value="2B">KELAS 2B</option>
+																					<option value="BSN">KELAS BISNIS</option>
+																					<option value="EK1">EKONOMI EKS KABIN KLS 1</option>
+																					<option value="EK2">EKONOMI EKS KABIN KLS 2</option>
+																					<option value="EK3">EKONOMI EKS KABIN KLS 3</option>
+																					<option value="EK4">EKONOMI EKS KABIN KLS 4</option>
+																					<option value="EKO">KELAS EKONOMI</option>
+																					<option value="EKS">EKONOMI EKS KABIN KLS 1S</option>
+																					<option value="EKW">EKONOMI EKS KABIN KLS WISATA</option>
+																					<option value="ETB">EKONOMI EX TATAMI BANTAL</option>
+																					<option value="ETK">EKONOMI EX TATAMI KASUR</option>
+																					<option value="EUT">EKONOMI EX UTAMA/RECLINING</option>
+																					<option value="EWA">EKONOMI KHUSUS WANITA</option>
+																					<option value="EXC">KELAS EKSEKUTIF</option>
+																					<option value="VIP">KELAS VIP</option>
+										</select>
+									</div>
+								</div>
+								<div class="col35">
+									<span class="ltitle"></span>
+									<div class="col">
+										<input type="submit" id="validation" class="btn blue" value="PESAN">
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+
+
+		<!-- <div id="loading" style="text-align:center;" style="display:none;">
+			<img src="https://www.pelni.co.id/html/load.gif" alt="loading" />
+		</div> -->
+
+
+       	 	<div class="table-rute" id="result" style="width:100%;">
+            
+				<div id="example_wrapper" class="dataTables_wrapper no-footer">
+										<div style="text-align:center;margin-top:64px">
+								<h3>Isi Kolom Pencarian Terlebih Dahulu</h3>
+							</div>
+									
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+   <!-- FOOTER STAR -->
+    <footer class="footer">
+    <div class="top">
+      <div class="wrapper">
+        <div class="colom">
+          <div class="logo-footer">
+            <h3>BARCELONA</h3>
+            <span>TIKET</span>
+          </div>
+        </div>
+        <div class="colom">
+          <h4>PT.SURYA PACIFIK INDONESIA</h4>
+          <P>
+            Jl.Rumambi No.1,
+            <br>
+            Kompleks Pelabuhan Manado,
+            <br>
+            Sulawesi Utara, Indonesia
+          </P>
+        </div>
+        <div class="colom">
+          <h4>Kontak Pusat</h4>
+          <P>T. 162 (Jabodetabek)</P>              
+          <p>F. +62 21 6385 4130</p>           
+          <P>E. infopelni162@pelni.co.id</p>
+        </div>
+        <div class="colom">
+          <h4>Madia Sosial Kami</h4>
+          <div class="socmed"></div>
+        </div>
+        </div>         
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="bottom-wrapper">
+        <p>Copyright @2024 PT Surya Pasifik Indonesia</p>
+      </div>
+    </div>
+   </footer>
+   <!-- FOOTER END -->
+
+
+    <!-- CONTEN 1 -->
+
+    <!-- CONTEN 1 END -->
+
+    <!-- FOOTER -->
+    <!-- Feather Icons -->
+
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
+
+

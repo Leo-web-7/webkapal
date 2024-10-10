@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --bg: #ffffff;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--bg);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .banner {
+    margin-top: 5.8rem;
+    display: block;
+  }
+
+/* navbar star*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: #084eb7;
+    border-bottom: 1px solid #3d3d3d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffff;
+  }
+  .navbar .navbar-nav a {
+    color: #ffff;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 1rem;
+  }
+  
+  .navbar .navbar-nav a:hover {
+    color: var(--primary);
+  }
+  
+  .navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid var(--bg);
+    transform: scaleX(0);
+    transition: 0.3s linear;
+  }
+  
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+  }
+  
+  .navbar .navbar-extra a {
+    color: #fff;
+    margin: 0 0.5rem;
+  }
+  
+  .navbar .navbar-extra a:hover {
+    color: black;
+  }
+  
+  .header-image {
+    justify-content: center;
+  }
+  
+  .std-content{
+    margin-top: 60px;
+  }
+  
+  .vertical-line {
+    background-color: #333;
+    width: 2px;
+    height: 100px;
+    margin: 0;
+  }
+  
+  .navigasi {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  
+  .navigasi ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navigasi a {
+    color: black;
+  }
+  
+  .paragraf-text {
+    margin: 0;
+  }
+  
+  /* navbar end*/
+
+
+/* pemesanan star */
+
+.reservasi {
+    margin-top: 50px;
+    margin-bottom: 140px;
+  }
+  
+  .wrapper {
+    width: 1100px;
+    margin: 0 auto;  
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc {
+    display: none;
+    padding: 30px 40px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row span {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col70 {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col70 .col {
+    float: left;
+    width: 50%;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col70 .col select {
+    width: 80%;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col label {
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ebebeb;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    font-weight: 300;
+    font-size: 13px;
+    color: #333;
+    width: 30%;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col.custom-select {
+    width: 100%;
+    display: inline-flex;
+    float: left;
+    margin: 0;
+    height: 50px;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col.custom-select label {
+    height: 50px;
+    width: 15%;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col.custom-select span {
+    margin: 0;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col.custom-select .lebel {
+    top: -20px !important;
+    color: #fff;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col.custom-select .select2-container--default {
+    width: 80% !important;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col.custom-select .select2-container--default .select2-selection--single {
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    border-color: #ebebeb;
+    border-radius: 0;
+    padding: 24px 0;
+    box-sizing: border-box;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col.custom-select .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #333;
+    margin: 0;
+    position: relative;
+    top: -15px;
+    width: 98% !important;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col.custom-select .select2-container--default .select2-selection--single {
+    top: 10px;  
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .changes {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    left: 46.7%;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col70 {
+    width: 69.5%;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col70 .col {
+    float: left;
+    width: 50%;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col70 .col select {
+    width: 80%;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col select {
+    width: 60%;
+  }
+  
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row {
+    background-position: 50%;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col {
+    float: left;
+    width: 100%;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col select {
+    width: 60%;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col35 {
+    width: 32%;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col35 input, .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col35 select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col35 input {
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col35 .btn {
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Lato;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp .drop-acc form .row .col35:last-child {
+    margin-right: 0;
+  }
+  
+  .reservasi .accordion-wp .ls-acc-wp.active .drop-acc {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .reservasi .table-rute {
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #dedede;
+  }
+  
+  .reservasi .table-rute table.dataTable thead tr {
+    margin-bottom: 25px;
+  }
+  
+  .reservasi .table-rute table.dataTable thead th {
+    font-weight: 300;
+    text-align: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 25px;
+  }
+  
+  .reservasi .table-rute table.dataTable tbody td {
+    padding: 25px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  
+  .reservasi .table-rute table.dataTable.no-footer {
+    border-color: #d8d8d8;
+  }
+  
+  .reservasi .table-rute table.dataTable.hover tbody tr:hover {
+    background: none;
+  }
+  
+  .reservasi .table-rute table.dataTable.display tbody tr.even > .sorting_1, .reservasi .table-rute table.dataTable.display tbody tr.odd > .sorting_1 {
+    background-color: transparent;
+  }
+  
+  .reservasi .table-rute table.dataTable.display tbody tr:hover, .reservasi .table-rute table.dataTable.stripe tbody tr.odd {
+    background-color: #fff;
+  }
+  
+  
+  
+  /* pemesanan end */
+
+
+/* footer star */
+
+.footer .top {
+    background-color: #ffff;
+    border-top: solid 1px black;
+    
+    border-bottom: solid 1px black;
+  }
+  
+  .footer .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0;
+  }
+  
+  .bottom-wrapper {
+    margin: 0;
+    padding: 1rem 0;
+    text-align: start;
+    
+  }
+  
+  .bottom-wrapper p{
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    width: 100%;
+    padding-left: 3rem;
+    color: white;
+    
+  }
+  
+  .footer .top .colom {
+    float: left;
+    width: 300px;
+    position: relative;
+  }
+  .logo-footer {
+    text-align: center;
+  }
+  
+  .logo-footer h3 {
+    font-size: 20px;
+    color: #084EB7;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .logo-footer span {
+    color: #FF7A00;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .footer .bottom {
+    background-color: #084EB7;
+    
+  }
+  
+  .bottom .wrapper p {
+    text-align: left;
+  }
+  
+  /* footer end */
+
+
+  /* Media Queries */
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+      font-size: 75%;
+    }
+  }
+  
+  
+  /* Mobile phone */
+  @media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+    #hamburger-menu {
+      display: inline-block;
+    }
+  }
+  
+  /* CONTEN */
